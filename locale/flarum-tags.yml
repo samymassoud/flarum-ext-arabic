@@ -1,0 +1,101 @@
+flarum-tags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Basics page.
+    basics:
+      tags_label: => flarum-tags.ref.tags
+
+    # These strings are used in the Edit Tag modal dialog.
+    edit_tag:
+      color_label: اللون
+      description_label: الوصف
+      delete_tag_button: حذف علامة
+      delete_tag_confirmation: "هل أنت متأكد انك تريد حذف هذه العلامة ؟ جميع الموضوعات تحت هذه العلامة لن تحذف"
+      hide_label: اخفاء من جميع المناقشات
+      name_label: => flarum-tags.ref.name
+      name_placeholder: => flarum-tags.ref.name
+      slug_label: Slug
+      submit_button: => core.ref.save_changes
+      title: => flarum-tags.ref.create_tag
+
+    # These strings are used in the navigation bar.
+    nav:
+      tags_button: => flarum-tags.ref.tags
+      tags_text: إدارة قائمة العلامات المتاحة لتنظيم المناقشات بها
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      allow_edit_tags_label: السماح بتعديل العلامات
+      restrict_by_tag_heading: حظر بالعلامة
+      tag_discussions_label: اضافة علامة للمناقشات
+
+    # These strings are used in the Tag Settings modal dialog.
+    tag_settings:
+      range_separator_text: " الى "
+      required_primary_heading: العدد المطلوب من العلامات الرئيسية
+      required_primary_text: ادخل اقل رقم واكبر رقم من العلامات الاساسية والتى يمكن اضافتها لموضوع
+      required_secondary_heading: العدد المطلوب من العلامات الفرعية
+      required_secondary_text: ادخل اقل رقم واكبر رقم من العلامات الثانوية والتى يمكن اضافتها الى موضوع
+      title: اعدادات العلامة
+
+    # These strings are used in the Tags page.
+    tags:
+      about_tags_text: "العلامات تستخدم لتصنيف الموضوعات ، العلامات الرئيسية تستخدم مثل أقسام المنتدى العادية ومن الممكن تصنيفها على شكل هرمى وترتيبها. العلامات الفرعية لا يمكن تصنيفها هرميا او ترتيبها وتستخدم للمنتديات الفرعية الصغيرة"
+      create_tag_button: => flarum-tags.ref.create_tag
+      primary_heading: علامة رئيسية
+      secondary_heading: علامات ثانوية
+      settings_button: الإعدادات
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Choose Tags modal dialog.
+    choose_tags:
+      choose_primary_placeholder: "اختر علامة رئيسية|اختر {count} علامة رئيسية"
+      choose_secondary_placeholder: "اختر علامة اضافية|اختر {count} علامات اضافية"
+      edit_title: "تعديل العلامات ل  {title}"
+      submit_button: => core.ref.okay
+      title: اختر العلامات لموضوعك
+
+    # These strings are used by the composer when starting a discussion.
+    composer_discussion:
+      choose_tags_link: اختر العلامات
+
+    # These strings are used by the discussion control buttons.
+    discussion_controls:
+      edit_tags_button: تعديل العلامات
+
+    # These strings are used on the index page, peripheral to the discussion list.
+    index:
+      tags_link: => flarum-tags.ref.tags
+      more_link: المزيد...
+      untagged_link: بلا علامات
+
+    # These strings are displayed between posts in the post stream.
+    post_stream:
+      added_tags_text: "{username} أضاف {tagsAdded}."
+      added_and_removed_tags_text: "{username} أضاف {tagsAdded} وأزال {tagsRemoved}."
+      removed_tags_text: "{username} أزال {tagsRemoved}."
+      tags_text: "{tags} علامة|{tags} علامات"
+
+  # Strings in this namespace are used by the forum and admin interfaces.
+  lib:
+
+    # This string is displayed in place of the name of a tag that's been deleted.
+    deleted_tag_text: محذوف
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    create_tag: انشاء علامة
+    name: الاسم
+    tags: العلامات

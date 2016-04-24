@@ -1,0 +1,60 @@
+flarum-flags:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Strings in this namespace are used by the admin interface.
+  admin:
+
+    # These strings are used in the Permissions page of the admin interface.
+    permissions:
+      flag_posts_label: ابلاغ عن المشاركة
+      view_flags_label: عرض المشاركات المبلغ عنها
+
+    # These strings are used in the Flags Settings modal dialog.
+    settings:
+      guidelines_url_label: رابط قوانين المنتدى
+      title: اعدادات الابلاغ
+
+  # Strings in this namespace are used by the forum user interface.
+  forum:
+
+    # These strings are used by the Flag Post modal dialog.
+    flag_post:
+      confirmation_message: شكرا لابلاغك عن هذه المشاركة،سيقوم مديرينا فى النظر فيها
+      dismiss_button: => core.ref.okay
+      reason_inappropriate_label: غير ملائم
+      reason_inappropriate_text: "هذا الموضوع يحتوى اهانة او عنف <a>قوانين المنتدى</a>."
+      reason_off_topic_label: "خارج-الموضوع"
+      reason_off_topic_text: هذه المشاركة غير ملائمة مع محتوى الموضوع الحالى ويجب نقلها الى مكان اخر
+      reason_other_label: اخرى
+      reason_spam_label: سبام
+      reason_spam_text: هذا الموضوع هو اعلان.
+      submit_button: => flarum-flags.ref.flag_post
+      title: => flarum-flags.ref.flag_post
+
+    # These strings are used by the Flagged Posts dropdown, a.k.a. "the flag".
+    flagged_posts:
+      empty_text: لا يوجد بلاغات
+      title: => flarum-flags.ref.flagged_posts
+      tooltip: => flarum-flags.ref.flagged_posts
+
+    # These strings are used by the frame displayed around flagged posts.
+    post:
+      dismiss_flag_tooltip: الغاء الابلاغ
+      flagged_by_text: "{username} قام بالابلاغ"
+      flagged_by_with_reason_text: "{username} قام بالابلاغ بسبب {reason}"
+
+    # These strings are used by the post control buttons.
+    post_controls:
+      flag_button: ابلاغ
+
+  ##
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    flag_post: ابلاغ عن الموضوع
+    flagged_posts: الموضوعات المبلغ عنها

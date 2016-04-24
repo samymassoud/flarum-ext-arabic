@@ -1,0 +1,76 @@
+validation:
+  accepted: "ال :attribute يجب أن يتم قبوله"
+  active_url: "ال :attribute رابط غير صحيح"
+  after: "ال :attribute يجب أن يكون بعد تاريخ :date."
+  alpha: "ال :attribute يجب أن يحتوى على حروف فقط."
+  alpha_dash: "ال :attribute من الممكن ان يحتوى على حروف وارقام وشرطة فقط"
+  alpha_num: "ال :attribute من الممكن أن يحتوى على حروف وارقام."
+  array: "ال :attribute يجب أن يكون مصفوفة"
+  before: "ال :attribute يجب أن يكون تاريخ قبل :date."
+  between:
+    numeric: "ال :attribute يجب أن يكون بين :min و :max."
+    file: "ال :attribute يجب أن يكون بين :min و :max كيلو بايت."
+    string: "ال :attribute يجب أن يكون بين :min و :max أحرف."
+    array: "ال :attribute يجب أن يكون بين :min و :max عنصر."
+  boolean: "ال :attribute الحقل يجب أن يكون True أو False"
+  confirmed: "ال :attribute التأكيد غير متطابق"
+  date: "ال :attribute تاريخ غير صحيح"
+  date_format: "ال :attribute لا يطابق فورمات :other."
+  different: "ال :attribute و :other يجب أن يكونا مختلفين."
+  digits: "ال :attribute يجب أن يكون :digits أرقام."
+  digits_between: "ال :attribute يجب أن يكون :min و :max أرقام."
+  distinct: "حقل  :attribute يحتوى قيمة مكررة."
+  email: "ال :attribute يجب أن يكون بريد الكترونى صحيح"
+  exists: "ال  :attribute المحددة غير صحيحة."
+  filled: "ال :attribute الملف مطلوب."
+  image: "ال :attribute يجب أن يكون صورة"
+  in: "ال  :attribute المحددة غير صحيحة"
+  in_array: "حقل  :attribute غير موجود فى :other."
+  integer: "ال :attribute يجب أن يكون رقم."
+  ip: "ال :attribute يجب أن يكون عنوان اى بى صالح."
+  json: "ال :attribute يجب أن يكون نص JSON صالح"
+  max:
+    numeric: "ال :attribute يجب أن لا يزيد عن :max."
+    file: "ال :attribute يجب أن لا يزيد عن :max كيلوبايت."
+    string: "ال :attribute يجب أن لا يزيد عن :max أحرف."
+    array: "ال :attribute يجب أن لا يزيد عن :max عنصر."
+  mimes: "ال :attribute يجب أن يكون ملف بنوع: :values."
+  min:
+    numeric: "ال :attribute يجب أن يكون على الأقل :min."
+    file: "ال :attribute يجب أن يكون على الأقل :min كيلوبايت."
+    string: "ال :attribute يجب أن يكون على الأقل :min أحرف."
+    array: "ال :attribute يجب أن يحتوى على الأقل :min عنصر."
+  not_in: "ال selected :attribute غير صحيحة."
+  numeric: "ال :attribute يجب أن يكون رقم."
+  present: "حقل :attribute يجب أن يكون موجود."
+  regex: "ال :attribute فورمات غير صحيح."
+  required: "ال :attribute الحقل مطلوب."
+  required_unless: "حقل :attribute مطلوب الا اذا كان  :other موجود فى :values."
+  required_if: "ال :attribute الحقل يكون مطلوب عندما  :other تكون :value."
+  required_with: "ال :attribute الحقل مطلوب عندما تكون :values موجودة."
+  required_with_all: "ال :attribute الحقل مطلوب عندما تكون :values موجودة."
+  required_without: "ال :attribute الحق مطلوب عندما تكون :values غير موجودة"
+  required_without_all: "ال :attribute الحقل مطلوب عندما تكون :values موجودة."
+  same: "ال :attribute و :other يجب أن يكونا متطابقين"
+  size:
+    numeric: "ال :attribute يجب أن يكون :size."
+    file: "ال :attribute  يجب أن يكون :size كيلوبايت."
+    string: "ال :attribute  يجب أن يكون :size أحرف."
+    array: "ال :attribute يجب أن يحتوى  :size عنصر."
+  string: "ال :attribute  يجب أن يكون نص."
+  timezone: "ال :attribute  يجب أن يكون منطقة صحيحة."
+  unique: "ال :attribute مستخدم من قبل"
+  url: "ال :attribute صيغته غير صحيحة"
+
+  attributes:
+    username: اسم المستخدم
+    password: كلمة المرور
+    email: البريد الالكترونى
+    title: الصفة
+    content: المحتوى
+    name_singular: اسم مفرد
+    name_plural: اسم جمع
+
+custom:
+    username:
+      regex: "اسم المستخدم ربما يحتوى على ، حروف وارقام ومسافات فقط"
