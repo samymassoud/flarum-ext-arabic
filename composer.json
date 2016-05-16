@@ -5,8 +5,7 @@
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.5",
-		"flarumarabia/flarum-ext-rtl":"*@dev"
+        "flarum/core": "^0.1.0-beta.5"
     },
     "extra": {
         "branch-alias": {

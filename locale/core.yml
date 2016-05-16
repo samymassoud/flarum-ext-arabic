@@ -393,7 +393,7 @@ core:
     log_out: خروج
     mark_all_as_read: تعليم الكل كمقروء
     notifications: التنبيهات
-    okay: اوك                                     # Referenced by flarum-tags.yml
+    okay: موافق                                     # Referenced by flarum-tags.yml
     password: كلمة المرور
     reply: رد                                 # Referenced by flarum-mentions.yml
     restore: استعادة
